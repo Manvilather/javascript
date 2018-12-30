@@ -9,11 +9,11 @@ console.log(findSM(data2));      // -- expected result -> false
 
 
 function findSM(data){
-    let isFound =false;
+    let isFounded =false;
     for(let i=0; i<data.length; i++){
         if(data[i]=='Saarang' || data[i]=='Manvi'){
-            isFound = true;
+            isFounded = true;
         }       
     }
-    return isFound;
+    return isFounded;
 }
